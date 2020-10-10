@@ -1,4 +1,4 @@
 # Hotel-Management-Project-OOPS course
 
-I have built this A Hotel Management Tool, which can be used to manage multiple 
+I have built this Hotel Management Tool, which can be used to manage multiple 
 activities in a hotel scenario like storing customer details, booking/unbooking rooms of four different types, ordering food for particular rooms and showing the bill. Availability of rooms and their features are also available on the tool. It’s a menu driven program which runs until user exits. File handling has been used to store the current status of the hotel(customer details, booked rooms, food ordered) in a file once the program exits so that when we restart the program, the old details are not lost. The program reads the file when it restarts to know the previous status of the hotel. Writing of file has been done in a separate thread as it can be done parallely. User defined exception is thrown if the user tries to book an already allotted room. Exception handling is properly done to deal with any kind of unexpected exception.
